@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F99EE3190D8CA500155FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F99EE2190D8CA500155FA1 /* Foundation.framework */; };
+		66F99EE5190D8CA500155FA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F99EE4190D8CA500155FA1 /* CoreGraphics.framework */; };
+		66F99EE7190D8CA500155FA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F99EE6190D8CA500155FA1 /* UIKit.framework */; };
+		66F99EED190D8CA500155FA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F99EEB190D8CA500155FA1 /* InfoPlist.strings */; };
+		66F99EEF190D8CA500155FA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F99EEE190D8CA500155FA1 /* main.m */; };
+		66F99EF3190D8CA500155FA1 /* MMBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F99EF2190D8CA500155FA1 /* MMBAppDelegate.m */; };
+		66F99EF6190D8CA500155FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F99EF4190D8CA500155FA1 /* Main.storyboard */; };
+		66F99EFC190D8CA500155FA1 /* MMBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F99EFB190D8CA500155FA1 /* MMBViewController.m */; };
+		66F99EFE190D8CA500155FA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F99EFD190D8CA500155FA1 /* Images.xcassets */; };
+		66F99F05190D8CA500155FA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F99F04190D8CA500155FA1 /* XCTest.framework */; };
+		66F99F06190D8CA500155FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F99EE2190D8CA500155FA1 /* Foundation.framework */; };
+		66F99F07190D8CA500155FA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F99EE6190D8CA500155FA1 /* UIKit.framework */; };
+		66F99F0F190D8CA500155FA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F99F0D190D8CA500155FA1 /* InfoPlist.strings */; };
+		66F99F11190D8CA500155FA1 /* MMBellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F99F10190D8CA500155FA1 /* MMBellTests.m */; };
+		66F99F1C190D8DED00155FA1 /* icon_44644.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F99F1B190D8DED00155FA1 /* icon_44644.png */; };
+		66F99F1E190D9AB400155FA1 /* bell.wav in Resources */ = {isa = PBXBuildFile; fileRef = 66F99F1D190D9AB400155FA1 /* bell.wav */; };
+		66F99F20190D9BD400155FA1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F99F1F190D9BD400155FA1 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66F99F08190D8CA500155FA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66F99ED7190D8CA500155FA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F99EDE190D8CA500155FA1;
+			remoteInfo = MMBell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66F99EDF190D8CA500155FA1 /* MMBell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMBell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F99EE2190D8CA500155FA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66F99EE4190D8CA500155FA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66F99EE6190D8CA500155FA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66F99EEA190D8CA500155FA1 /* MMBell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMBell-Info.plist"; sourceTree = "<group>"; };
+		66F99EEC190D8CA500155FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66F99EEE190D8CA500155FA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F99EF0190D8CA500155FA1 /* MMBell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MMBell-Prefix.pch"; sourceTree = "<group>"; };
+		66F99EF1190D8CA500155FA1 /* MMBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMBAppDelegate.h; sourceTree = "<group>"; };
+		66F99EF2190D8CA500155FA1 /* MMBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBAppDelegate.m; sourceTree = "<group>"; };
+		66F99EF5190D8CA500155FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66F99EFA190D8CA500155FA1 /* MMBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMBViewController.h; sourceTree = "<group>"; };
+		66F99EFB190D8CA500155FA1 /* MMBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBViewController.m; sourceTree = "<group>"; };
+		66F99EFD190D8CA500155FA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66F99F03190D8CA500155FA1 /* MMBellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMBellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F99F04190D8CA500155FA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66F99F0C190D8CA500155FA1 /* MMBellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MMBellTests-Info.plist"; sourceTree = "<group>"; };
+		66F99F0E190D8CA500155FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66F99F10190D8CA500155FA1 /* MMBellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMBellTests.m; sourceTree = "<group>"; };
+		66F99F1B190D8DED00155FA1 /* icon_44644.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_44644.png; sourceTree = "<group>"; };
+		66F99F1D190D9AB400155FA1 /* bell.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bell.wav; sourceTree = "<group>"; };
+		66F99F1F190D9BD400155FA1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F99EDC190D8CA500155FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F99F20190D9BD400155FA1 /* AudioToolbox.framework in Frameworks */,
+				66F99EE5190D8CA500155FA1 /* CoreGraphics.framework in Frameworks */,
+				66F99EE7190D8CA500155FA1 /* UIKit.framework in Frameworks */,
+				66F99EE3190D8CA500155FA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F99F00190D8CA500155FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F99F05190D8CA500155FA1 /* XCTest.framework in Frameworks */,
+				66F99F07190D8CA500155FA1 /* UIKit.framework in Frameworks */,
+				66F99F06190D8CA500155FA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F99ED6190D8CA500155FA1 = {
+			isa = PBXGroup;
+			children = (
+				66F99EE8190D8CA500155FA1 /* MMBell */,
+				66F99F0A190D8CA500155FA1 /* MMBellTests */,
+				66F99EE1190D8CA500155FA1 /* Frameworks */,
+				66F99EE0190D8CA500155FA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F99EE0190D8CA500155FA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F99EDF190D8CA500155FA1 /* MMBell.app */,
+				66F99F03190D8CA500155FA1 /* MMBellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F99EE1190D8CA500155FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66F99F1F190D9BD400155FA1 /* AudioToolbox.framework */,
+				66F99EE2190D8CA500155FA1 /* Foundation.framework */,
+				66F99EE4190D8CA500155FA1 /* CoreGraphics.framework */,
+				66F99EE6190D8CA500155FA1 /* UIKit.framework */,
+				66F99F04190D8CA500155FA1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F99EE8190D8CA500155FA1 /* MMBell */ = {
+			isa = PBXGroup;
+			children = (
+				66F99EF1190D8CA500155FA1 /* MMBAppDelegate.h */,
+				66F99EF2190D8CA500155FA1 /* MMBAppDelegate.m */,
+				66F99EF4190D8CA500155FA1 /* Main.storyboard */,
+				66F99EFA190D8CA500155FA1 /* MMBViewController.h */,
+				66F99EFB190D8CA500155FA1 /* MMBViewController.m */,
+				66F99F1A190D8DED00155FA1 /* Resources */,
+				66F99EFD190D8CA500155FA1 /* Images.xcassets */,
+				66F99EE9190D8CA500155FA1 /* Supporting Files */,
+			);
+			path = MMBell;
+			sourceTree = "<group>";
+		};
+		66F99EE9190D8CA500155FA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F99EEA190D8CA500155FA1 /* MMBell-Info.plist */,
+				66F99EEB190D8CA500155FA1 /* InfoPlist.strings */,
+				66F99EEE190D8CA500155FA1 /* main.m */,
+				66F99EF0190D8CA500155FA1 /* MMBell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F99F0A190D8CA500155FA1 /* MMBellTests */ = {
+			isa = PBXGroup;
+			children = (
+				66F99F10190D8CA500155FA1 /* MMBellTests.m */,
+				66F99F0B190D8CA500155FA1 /* Supporting Files */,
+			);
+			path = MMBellTests;
+			sourceTree = "<group>";
+		};
+		66F99F0B190D8CA500155FA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F99F0C190D8CA500155FA1 /* MMBellTests-Info.plist */,
+				66F99F0D190D8CA500155FA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F99F1A190D8DED00155FA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66F99F1D190D9AB400155FA1 /* bell.wav */,
+				66F99F1B190D8DED00155FA1 /* icon_44644.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F99EDE190D8CA500155FA1 /* MMBell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F99F14190D8CA500155FA1 /* Build configuration list for PBXNativeTarget "MMBell" */;
+			buildPhases = (
+				66F99EDB190D8CA500155FA1 /* Sources */,
+				66F99EDC190D8CA500155FA1 /* Frameworks */,
+				66F99EDD190D8CA500155FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMBell;
+			productName = MMBell;
+			productReference = 66F99EDF190D8CA500155FA1 /* MMBell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66F99F02190D8CA500155FA1 /* MMBellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F99F17190D8CA500155FA1 /* Build configuration list for PBXNativeTarget "MMBellTests" */;
+			buildPhases = (
+				66F99EFF190D8CA500155FA1 /* Sources */,
+				66F99F00190D8CA500155FA1 /* Frameworks */,
+				66F99F01190D8CA500155FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66F99F09190D8CA500155FA1 /* PBXTargetDependency */,
+			);
+			name = MMBellTests;
+			productName = MMBellTests;
+			productReference = 66F99F03190D8CA500155FA1 /* MMBellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F99ED7190D8CA500155FA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MMB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael May";
+				TargetAttributes = {
+					66F99F02190D8CA500155FA1 = {
+						TestTargetID = 66F99EDE190D8CA500155FA1;
+					};
+				};
+			};
+			buildConfigurationList = 66F99EDA190D8CA500155FA1 /* Build configuration list for PBXProject "MMBell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66F99ED6190D8CA500155FA1;
+			productRefGroup = 66F99EE0190D8CA500155FA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F99EDE190D8CA500155FA1 /* MMBell */,
+				66F99F02190D8CA500155FA1 /* MMBellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F99EDD190D8CA500155FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F99F1E190D9AB400155FA1 /* bell.wav in Resources */,
+				66F99EFE190D8CA500155FA1 /* Images.xcassets in Resources */,
+				66F99EF6190D8CA500155FA1 /* Main.storyboard in Resources */,
+				66F99EED190D8CA500155FA1 /* InfoPlist.strings in Resources */,
+				66F99F1C190D8DED00155FA1 /* icon_44644.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F99F01190D8CA500155FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F99F0F190D8CA500155FA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F99EDB190D8CA500155FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F99EEF190D8CA500155FA1 /* main.m in Sources */,
+				66F99EFC190D8CA500155FA1 /* MMBViewController.m in Sources */,
+				66F99EF3190D8CA500155FA1 /* MMBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66F99EFF190D8CA500155FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F99F11190D8CA500155FA1 /* MMBellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66F99F09190D8CA500155FA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66F99EDE190D8CA500155FA1 /* MMBell */;
+			targetProxy = 66F99F08190D8CA500155FA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66F99EEB190D8CA500155FA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F99EEC190D8CA500155FA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66F99EF4190D8CA500155FA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F99EF5190D8CA500155FA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66F99F0D190D8CA500155FA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F99F0E190D8CA500155FA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F99F12190D8CA500155FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F99F13190D8CA500155FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F99F15190D8CA500155FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMBell/MMBell-Prefix.pch";
+				INFOPLIST_FILE = "MMBell/MMBell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66F99F16190D8CA500155FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMBell/MMBell-Prefix.pch";
+				INFOPLIST_FILE = "MMBell/MMBell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66F99F18190D8CA500155FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMBell.app/MMBell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMBell/MMBell-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MMBellTests/MMBellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66F99F19190D8CA500155FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMBell.app/MMBell";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MMBell/MMBell-Prefix.pch";
+				INFOPLIST_FILE = "MMBellTests/MMBellTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F99EDA190D8CA500155FA1 /* Build configuration list for PBXProject "MMBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F99F12190D8CA500155FA1 /* Debug */,
+				66F99F13190D8CA500155FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F99F14190D8CA500155FA1 /* Build configuration list for PBXNativeTarget "MMBell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F99F15190D8CA500155FA1 /* Debug */,
+				66F99F16190D8CA500155FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66F99F17190D8CA500155FA1 /* Build configuration list for PBXNativeTarget "MMBellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F99F18190D8CA500155FA1 /* Debug */,
+				66F99F19190D8CA500155FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F99ED7190D8CA500155FA1 /* Project object */;
+}
